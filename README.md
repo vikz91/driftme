@@ -4,9 +4,20 @@ A calm, open-source personal growth dashboard for developers.
 
 Drift helps individuals notice momentum, catch drift, and stay intentional in their learning and projects — without pressure, gamification, or productivity theater.
 
+![Open Source](https://img.shields.io/badge/open--source-yes-brightgreen)
+![License](https://img.shields.io/github/license/vikz91/driftme)
+![Bun](https://img.shields.io/badge/runtime-bun-black)
+![React](https://img.shields.io/badge/frontend-react%2019-blue)
+![Docker](https://img.shields.io/badge/container-docker-blue)
+![Turborepo](https://img.shields.io/badge/monorepo-turborepo-purple)
+![Status](https://img.shields.io/badge/status-active%20development-orange)
+
+
 🌑 **Dark theme only**  
 🧘 **Personal-first, no collaboration**  
 🆓 **Free, open source, self-hostable**
+
+👉 Repository: https://github.com/vikz91/driftme
 
 ---
 
@@ -188,15 +199,32 @@ For full context, see **[PROJECT.md](./PROJECT.md)**.
 
 ## Contributing
 
-Contributions are welcome, but Drift is intentionally conservative.
+Drift is open source and contributions are welcome, but the project is intentionally conservative.
 
 Before contributing:
+- Read [PROJECT.md](./PROJECT.md) to understand the philosophy
+- Read [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution rules
+- Open an issue before proposing new features
 
-* Read **CONTRIBUTING.md**
-* Open an issue for feature discussion
-* Keep PRs small and focused
+Small, focused improvements are preferred over large changes.
 
-Philosophy alignment matters more than feature velocity.
+
+---
+
+## Issues & Feedback
+
+Please use GitHub Issues for:
+- Bug reports
+- UX problems
+- Clarification questions
+- Feature discussions (proposal only)
+
+Before opening an issue:
+- Check existing issues
+- Keep scope narrow
+- Avoid feature requests that add pressure, noise, or complexity
+
+See [ISSUES.md](./ISSUES.md) for guidelines.
 
 ---
 
@@ -235,14 +263,3 @@ Every change must answer:
 
 If not, it does not belong in Drift.
 
-```
-
----
-
-### Why This README Works
-
-- Removes Turborepo boilerplate noise
-- Clearly states **what Drift is and is not**
-- Signals seriousness to contributors
-- Matches your OSS + free philosophy
-- Scales with the project without rewriting later
